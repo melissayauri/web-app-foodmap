@@ -49,12 +49,15 @@ img[alt="gif"]{
 .mrgin{
   margin-bottom: 3rem;
 }
-/*otros*/
-/*
-.height-25 {
-  height: 25vw;
+.photo{
+  border: 2px solid #bd7132;
+  border-radius: 3px;
+  height: 30vh;
+
+  margin-bottom: 1rem;
+  margin-left: 2rem;
 }
 
-.mg-bt-25 {
-  margin-bottom: 25px;
-}*/
+.ocultar{
+  display: none;
+}

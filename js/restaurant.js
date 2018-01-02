@@ -1,12 +1,17 @@
 $(document).ready(function() {
-  // mostrando todos los restaurantes que hay en la data en la seccion de muestra(sample)
-
-  for (var i = 0; i < data.length; i++) {
-
- $('#sample').append('<div>' + data[i]['photo'] + '</div>');
-    // añadiendo clases para mostrar los restaurantes de forma ordenada
-    $('#sample img').addClass('col-xs-4 mg-bt-25 height-25 line');
-  }
-
-
+  var size = data.length;
+  /* funcion para hacer el recorrido de la data*/
+  $.each(data, function(i, size) {
+    /* imagen de las dulcerias */
+    var $photo = data[i]['photo'];
+    /* nombres de los filtros de los postres*/
+    var $filter = data[i]['filter'];
+    console.log($filter);
+    /* agregando las imagenes y generando atributos mediante data*/
+    $('#restaurants').append('<div " data-filter="' + $filter + '">' + $photo + ' </div>');
+    /* añadiendo el tamaño de las columnas para cada foto de la dulceria*/
+    $('#restaurants div img').addClass('col-xs-5 photo');
+  });
+  $('#title').click(function() {
+});
 });
