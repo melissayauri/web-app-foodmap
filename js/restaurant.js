@@ -12,6 +12,8 @@ $(document).ready(function() {
     /* añadiendo el tamaño de las columnas para cada foto de la dulceria*/
     $('#restaurants div img').addClass('col-xs-5 photo');
   });
-  $('#title').click(function() {
-});
+  /* mensaje de ayuda*/
+  $('#question').on('click', function() {
+    $('#answer').toggle();
+  });
 });
