@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--etiqueta responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Foodmap</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <h1 class="title-food text-uppercase text-center">food map</h1>
+        <div class="center-block">
+          <img src="../assets/images/choco.gif" alt="gif" class="center-block">
+        </div>
+        <h3 class="welcome text-center">Bienvenido !!!</h3>
+        <div class="map center-block">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6660.35060094416!2d-70.64110096773679!3d-33.41867379272864!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512475216416" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <h3 class="title-food text-center">Disfruta los mejores postres de Lima</h3>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mrgin">
+        <div class="input-group col-xs-10 center-block ">
+          <input id="search" type="text" class="form-control" aria-label="aaa" placeholder="postres" class=" ">
+        </div>
+      </div>
+
+      <div class="row">
+       <div id="sample" class="col-xs-12 mg-top-25">
+
+       </div>
+
+       <div class="row">
+        <div id="sample1" class="col-xs-12 mg-top-25">
+
+        </div>
+
+        <div class="row">
+         <div id="sample1" class="col-xs-12 mg-top-25">
+
+         </div>
+    </div>
+
+
+
+    <!--vinculando con el archivo jquery-->
+    <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+    <!--vinculando con el framework bootstrap-js-->
+    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="../js/data.js"></script>
+<script type="text/javascript" src="../js/restaurant.js"></script>
+<script type="text/javascript" src="../js/filter.js"></script>
+  </body>
+</html>

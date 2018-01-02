@@ -1,8 +1,13 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Courgette', cursive;
+  color:black;
 }
 
+body{
+    background-color: #2b2b2b;
+}
 .line{
   outline: 1px solid red;
 }
@@ -22,3 +27,34 @@
 .title-food{
   color: #bd7132;
 }
+
+img[alt="gif"]{
+  width: 50%;
+}
+
+.welcome{
+  color: white;
+  margin-top: 2rem;
+}
+
+/*mapa*/
+.map{
+  width: 90%;
+	height: 200px;
+	margin-top:2rem;
+	padding: 5px;
+	border: 2px solid #bd7132;
+	border-radius: 0.5em;
+}
+.mrgin{
+  margin-bottom: 3rem;
+}
+/*otros*/
+/*
+.height-25 {
+  height: 25vw;
+}
+
+.mg-bt-25 {
+  margin-bottom: 25px;
+}*/
