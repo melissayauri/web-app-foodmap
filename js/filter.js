@@ -2,6 +2,11 @@ $(document).ready(function() {
   $('#search').keyup(function() {
     /* valores que se coloca en el filtro*/
     var $input = $(this).val();
+    if ($(this).val() === '') {
+      window.location.href = '../views/principal.html';
+      /* location.reload();*/
+    }
+
     /* tomando todos los restaurantes de la data*/
     var $restaurants = $('#restaurants div ');
     var $sizeRestaurant = restaurants.length;
