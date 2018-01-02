@@ -3,7 +3,7 @@ $(document).ready(function() {
     /* valores que se coloca en el filtro*/
     var $input = $(this).val();
     /* tomando todos los restaurantes de la data*/
-    var $restaurants = $('#restaurants div');
+    var $restaurants = $('#restaurants div ');
     var $sizeRestaurant = restaurants.length;
     /* recorrido por la data restaurantes que se tiene inicialmente*/
     $.each(data, function(i, $sizeRestaurant) {
