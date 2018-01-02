@@ -6,6 +6,7 @@ $(document).ready(function() {
     var $photo = data[i]['photo'];
     /* nombres de los filtros de los postres*/
     var $filter = data[i]['filter'];
+    var posi = data[i]['position'];
     console.log($filter);
     /* agregando las imagenes y generando atributos mediante data*/
     $('#restaurants').append('<div " data-filter="' + $filter + '">' + $photo + ' </div>');

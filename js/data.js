@@ -4,20 +4,20 @@ var data = [
     photo: '<img src="https://igx.4sqi.net/img/general/200x200/27121880_kA4TBVX3aFlykccL3vFmwwqoZdqEsgSTjA_5B0CSdY8.jpg" alt="">',
     filter: 'helados',
     address: 'Av. Alfredo Mendiola 3698 interior N° 78 Independencia',
-    preference: '5 estrellas'
+    preference: '5 estrellas',
   },
   { name: 'palermo',
     photo: '<img src="https://0.kekantoimg.com/XRJ2GWxMpcxyCfDyOcvb_zMb0ts=/fit-in/600x600/s3.amazonaws.com/kekanto_pics/pics/244/821244.jpg" alt="">',
     filter: 'helados',
     address: 'Jr. Huiracocha 1237, Jesús María',
-    preference: '4 estrellas'
+    preference: '4 estrellas',
   },
   {
     name: 'Delimeli cakes and cupcakes',
     photo: '<img src="https://static.wixstatic.com/media/76e566_89f4f646e30f7f8f240d5d0edd31fde1.jpg/v1/fill/w_509,h_354,al_c,q_80,usm_0.66_1.00_0.01/76e566_89f4f646e30f7f8f240d5d0edd31fde1.webp" alt="">',
     filter: 'cupcakes',
     address: 'Calle Valle Riestra 508 San Isidro',
-    preference: '4 estrellas'
+    preference: '4 estrellas',
   },
   {
     name: 'miss-cupcakes',

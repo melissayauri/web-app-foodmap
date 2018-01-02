@@ -12,51 +12,50 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <h1 class="title-food text-uppercase text-center">food map</h1>
-        <div class="center-block">
-          <img src="../assets/images/choco.gif" alt="gif" class="center-block">
+        <div class="col-xs-12">
+          <h1 class="title-food text-uppercase text-center">foodmap</h1>
+          <div class="center-block">
+            <img src="../assets/images/choco.gif" alt="gif" class="center-block">
+          </div>
+          <h3 class="white text-center">Bienvenido !!!</h3>
+          <!--mapa-->
+          <div class="map center-block">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6660.35060094416!2d-70.64110096773679!3d-33.41867379272864!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512475216416" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <h3 class="title-food text-center">Disfruta los mejores postres de Lima</h3>
+          <!--mensaje de ayuda-->
+          <p class="text-center white">Deseas saber cuales son los postres <a href="#" id="question" class="text-warning">Click aqui</a></p>
+          <div id="answer" class="message center-block text-center">
+            <p>helados</p>
+            <p>cupcakes</p>
+            <p>sanguito</p>
+            <p>chocolate</p>
+            <p>suspiro</p>
+            <p>mazamorras</p>
+          </div>
         </div>
-        <h3 class="white text-center">Bienvenido !!!</h3>
-        <div class="map center-block">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6660.35060094416!2d-70.64110096773679!3d-33.41867379272864!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512475216416" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <h3 class="title-food text-center">Disfruta los mejores postres de Lima</h3>
-        <p class="text-center white">Deseas saber cuales son los postres <a href="#" id="question" class="text-warning">Click aqui</a></p>
-
-        <div id="answer" class="message center-block text-center">
-          <p>helados</p>
-          <p>cupcakes</p>
-          <p>sanguito</p>
-          <p>chocolate</p>
-          <p>suspiro</p>
-          <p>mazamorras</p>
-
-
-
-        </div>
-
-
       </div>
     </div>
     <div class="container-fluid">
+      <!--filtro-->
       <div class="row mrgin">
         <div class="input-group col-xs-10 center-block ">
           <input id="search" type="text" class="form-control" aria-label="aaa" placeholder="Elige tu postre" class=" ">
         </div>
       </div>
+      <!--seccion de restaurants-->
       <div class="row">
-        <div id="restaurants" class="col-xs-12 "></div>
-      </div>
-  </div>
-</body>
+        <div id="restaurants" class="col-xs-12 ">
 
+        </div>
+      </div>
+    </div>
     <!--vinculando con el archivo jquery-->
     <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
     <!--vinculando con el framework bootstrap-js-->
     <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-
     <script type="text/javascript" src="../js/data.js"></script>
-<script type="text/javascript" src="../js/restaurant.js"></script>
-<script type="text/javascript" src="../js/filter.js"></script>
+    <script type="text/javascript" src="../js/restaurant.js"></script>
+    <script type="text/javascript" src="../js/filter.js"></script>
   </body>
 </html>
