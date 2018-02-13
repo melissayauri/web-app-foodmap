@@ -1,29 +1,59 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <!--etiqueta responsive-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Foodmap</title>
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    <!--vista splash-->
-    <div class="container-fluid splash">
-      <div class="row">
-        <h1 class="title-food text-uppercase">food map</h1>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodmap</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link rel="stylesheet" href="vendors/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- This loader will apear for 6 seconds while the side is loading -->
+  <div  class="valign-wrapper center-align yellow-text text-darken-4 splash">
+    <h1>Foodmap</h1>
+  </div>
+  <div class="container yellow-text text-darken-4 center-align principal-container">
+    <div class="row">
+      <div class="col s12">
+        <h1>Foodmap</h1>
       </div>
     </div>
+    <div class="row">
+      <div class="col s12">
+        <div id="map" class="map"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h2>Bienvenido!!!</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <select id="selection" class="browser-default">
+          <option value="" disabled selected>Escoge el postre que quieres comer</option>
+        </select>
+      </div>
+    </div>
+    <div id="place-container" class="row place-container">
 
+    </div>
 
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h4 id="name-place"></h4>
+      <div id="ubication" class="ubication"></div>
+      <div id="information" class="information"></div>
+    </div>
+  </div>
 
-
-    <!--vinculando con el archivo jquery-->
-    <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
-    <!--vinculando con el framework bootstrap-js-->
-    <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-  </body>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="vendors/js/jquery-3.2.1.js"></script>
+  <script src="vendors/js/materialize.min.js"></script>
+  <script src="js/app.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBueYkODHE9Em7WFAZSrodcAMlqDzf5RZE&libraries=places"></script>
+</body>
 </html>

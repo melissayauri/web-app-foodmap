@@ -5,79 +5,85 @@
 
 }
 
-body{
-    background-color: #2b2b2b;
-}
-a{
-  text-decoration: none;
-}
-.line{
-  outline: 1px solid red;
-}
-/* vista splash*/
-.splash{
-  text-align: center;
+
+body {
   background-color: #2b2b2b;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1000;
+}
+
+.splash {
+  background-color: #2b2b2b;
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
-  left:0;
+  justify-content: center;
+  animation: colorchange 3s;
+  -webkit-animation: colorchange 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 9999;
+}
+
+
+.principal-container{
+  display: none;
+}
+
+.map {
+  width: 100%;
+  height: 40vh;
+  border: 3px solid #f57f17;
+}
+
+
+.ubication iframe {
+  border: 3px solid #f57f17;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.place-container img {
+  width: 100%;
+  object-fit: cover;
+  height: 60vh;
+  object-position: center;
+}
+
+.place {
+  width: 100%;
+  position: relative;
+}
+
+.title-place {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.title-food{
-  color: #bd7132;
-}
-
-img[alt="gif"]{
-  width: 50%;
-}
-
-.white{
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  font-size: 2em;
+  opacity: 0;
+  transition: opacity 0.5s linear;
 }
 
-/*mapa*/
-.map{
-  width: 90%;
-	height: 200px;
-	margin-top:2rem;
-	padding: 5px;
-	border: 2px solid #bd7132;
-	border-radius: 0.5em;
-}
-.mrgin{
-  margin-bottom: 3rem;
-}
-.photo{
-  border: 2px solid #bd7132;
-  border-radius: 3px;
-  height: 30vh;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
-}
-/*mensaje de ayuda*/
-.message {
-  display: none;
-  color:white;
-  width: 50%;
-  border: 1px solid white;
-  border-radius: 10px;
-  margin-bottom: 1rem;
+.modal {
+  border-radius: 1rem;
 }
 
-.shadow{
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #bd7132;
-  content: 'delicioso';
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.mes{
-  
+.information{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
