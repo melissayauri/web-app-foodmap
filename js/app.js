@@ -10,19 +10,20 @@ var initMap = (function() {
   var infoWindow = new google.maps.InfoWindow({map: map});
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
-      var pos = {
+      var position = {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
-      myLocation = pos;
-      infoWindow.setPosition(pos);
+      myLocation = position;
+      infoWindow.setPosition(position);
       infoWindow.setContent('Esta es tu ubicación');
       var thisPlace = new google.maps.LatLng(myLocation.lat, myLocation.lng);
+      /* Ubicación de lugares que venden postres más cercanos a tu ubicación*/
       var service = new google.maps.places.PlacesService(map);
       service.nearbySearch({
         location: thisPlace,
         radius: 1500,
-        type: ['food']
+        type: ['bakery']
       }, callback);
       function callback(results, status) {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
@@ -43,7 +44,7 @@ var initMap = (function() {
         });
       };
 
-      map.setCenter(pos);
+      map.setCenter(position);
     }, function() {
       handleLocationError(true, infoWindow, map.getCenter());
     });
@@ -71,7 +72,7 @@ $(document).ready(function() {
     var uniqueFilters = [...new Set(filtersArr)];
     var filtersFinal = uniqueFilters.sort();
     for (var a = 0; a < filtersFinal.length; a++) {
-      element.append("<option value='"+filtersFinal[a]+"'>"+filtersFinal[a]+"");
+      element.append("<option value='"+filtersFinal[a]+"'>"+filtersFinal[a]+"") ;
     };
     return filtersFinal;
   });
@@ -80,11 +81,10 @@ $(document).ready(function() {
   setTimeout(function() {
     $('.splash').fadeOut();
     $('.principal-container').fadeIn();
-  }, 1000);
+  }, 4000);
   setTimeout(function() {
     initMap();
   }, 1000);
-
 
 
   /* funcionalidad para el selector que muestra los lugares */
@@ -124,10 +124,10 @@ $(document).ready(function() {
           for (var n = 0; n < restaurants[i].address.length; n++) {
             var newAddress = restaurants[i].address[n].replace(/ /g,'+' );
             var addressGoogle = newAddress.replace(/,/g, "");
-            $("#ubication").append("<iframe src='https://www.google.com/maps/embed/v1/place?key=AIzaSyAR26jcQ0wriBfIDM3j327c80TqkZjw8-A&q="+addressGoogle+"'allowfullscreen></iframe>");
-            $("#information").append("<p>"+restaurants[i].address[n]+"</p>");
+            $('#ubication').append("<iframe src='https://www.google.com/maps/embed/v1/place?key=AIzaSyAR26jcQ0wriBfIDM3j327c80TqkZjw8-A&q="+addressGoogle+"'allowfullscreen></iframe>");
+            $('#information').append('<p>' + restaurants[i].address[n] + '</p>');
           }
-          $("#information").append("<p><a href='"+restaurants[i].website+"'>"+restaurants[i].website+"</a></p>");
+          $('#information').append("<p><a href='"+restaurants[i].website+"'>"+restaurants[i].website+"</a></p>");
         }
       }
       $("#modal").modal("open");
