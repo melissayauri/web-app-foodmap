@@ -7,15 +7,25 @@ Create a web-app that through of a selector can filter the dessert restaurants a
 * CSS
 * Framework bootstrap
 * Jquery
+* Api google maps
+
+## Environment
+The project was worked on the Windows 10 operating system (64 Bits).
 
 ## Filters
  The subject that gives in this application is about desserts and the filters are as follows:
--  helados
+-  chocotejas
+-  caramel sandwich cookies
 -  cupcakes
--  sanguito
--  chocolate
--  suspiro
--  mazamorras
+-  cookies
+-  ice creams
+-  Porridge
+-  picarones
+-  Salted Caramel Pinwheel cookies
+- sanguito
+- suspiro
+- cakes
+
 
 ## Flow of the application
 1. Splash view: This view is available for 4 seconds.
@@ -74,3 +84,6 @@ Create a web-app that through of a selector can filter the dessert restaurants a
   - Desktop view
 
     ![result](assets/img/modal.PNG)
+    
+ ## Bibliographical sources
+ - [Api google maps](https://developers.google.com/maps/documentation/javascript/places?hl=es-419)
