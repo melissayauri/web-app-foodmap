@@ -1,38 +1,76 @@
-# Reto FOODMAP
+# Challenge Dessert Map
+## Objective
+Create a web-app that through of a selector can filter the dessert restaurants according to your favorite dessert.
 
-## Objetivo
-Crea una web-app que a través de un input pueda filtrar los restaurantes que se encuentran cerca de ti.
-## Herramientas
-
+## Tools
 * HTML
 * CSS
 * Framework bootstrap
 * Jquery
 
-##filtros
-El tema que da a en esta aplicación es sobre postres y el filtro es de la siguiente manera:
+## Filters
+ The subject that gives in this application is about desserts and the filters are as follows:
 -  helados
-- cupcakes
+-  cupcakes
 -  sanguito
 -  chocolate
 -  suspiro
 -  mazamorras
 
-## Flujo de la aplicación
-1. Vista splash: Esta vista estás disponible por 4 segundos
+## Flow of the application
+1. Splash view: This view is available for 4 seconds.
+ - Mobile view
 
-![splash](assets/images/vista-splash.JPG)
+    ![splash](assets/img/splash1.PNG)
 
-2. Vista principal: Esta vista tiene un filtro para seleccionar los postres que desees
+  - Desktop view
 
-![splash](assets/images/vista-principal.JPG)
+    ![splash](assets/img/splash2.PNG)
 
-![splash](assets/images/vista-filtro.JPG)
+2. Main view: This view has a filter to select the desserts you want
+ - Mobile view
 
-* Como extra y para ayudar al cliente se le ofrece la opción de un mensaje de ayuda para que conozca los filtros
+    ![splash](assets/img/main.PNG)
 
-![splash](assets/images/vista-ayuda.JPG)
+ - Desktop view
 
-* El resultado del filtro se presenta de la siguiente manera:
+    ![splash](assets/img/main1.PNG)
 
-![splash](assets/images/prueba.JPG)
+3. Desert restaurants near you: The application offers depending on your location nearby places that offer desserts.
+ - Your location
+
+    ![resturants nearby](assets/img/ubication.PNG)
+
+ - Nearby places
+
+    ![resturants nearby](assets/img/ubication1.PNG)
+
+    ![resturants nearby](assets/img/ubication2.PNG)
+
+4. Result: The result of the filter is presented as follows:
+
+ - Mobile view
+
+    ![result](assets/img/result.PNG)
+
+  - Desktop view
+
+    ![result](assets/img/result1.PNG)
+
+  - Effect in desktop view
+
+    ![result](assets/img/result2.PNG)
+
+    ![result](assets/img/result3.PNG)
+
+5. Information about dessert restaurants: by clicking on the dessert restaurant,shows the following:
+  - Location about the place
+  - Web page
+
+  - Mobile view
+
+    ![result](assets/img/modal1.PNG)
+
+  - Desktop view
+
+    ![result](assets/img/modal.PNG)
