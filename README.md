@@ -1,6 +1,7 @@
 # Dessert Map
 Create a web-app that through of a selector can filter the dessert restaurants according to your favorite dessert.
-![image](https://user-images.githubusercontent.com/32289930/37802754-b59e6a94-2df9-11e8-89cf-e5ac9dc7a258.png)
+![image](https://user-images.githubusercontent.com/32289930/37803134-39a50e78-2dfb-11e8-8a38-e9b1b1fcb982.png)
+
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
 
