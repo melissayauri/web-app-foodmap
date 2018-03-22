@@ -1,5 +1,6 @@
 # Dessert Map
-Foodmap is a web-app that through of a selector can filter the dessert restaurants according to your favorite dessert.
+Dessert Map is a web-app that through of a selector can filter the dessert restaurants according to your favorite dessert.
+
 ![image](https://user-images.githubusercontent.com/32289930/37803233-ae18aa1c-2dfb-11e8-835d-197938357b02.png)
 
 
