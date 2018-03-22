@@ -1,7 +1,7 @@
-# BicisLocas
-Bicis locas es una tienda online, en la cual encontrarás tu bici ideal. Sólo llena el formulario y te contáctaremos.
+# Dessert Map
+Create a web-app that through of a selector can filter the dessert restaurants according to your favorite dessert.
 
-![bicis-locas-preview](https://user-images.githubusercontent.com/25912796/36161834-ac354784-10b2-11e8-8e2b-e3ed6eaaa4c0.png)
+![image](https://user-images.githubusercontent.com/32289930/37801359-5d4f4caa-2df4-11e8-8bf7-3eccc7aba8be.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
