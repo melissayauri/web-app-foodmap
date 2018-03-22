@@ -1,6 +1,8 @@
-# Challenge Dessert Map
-## Objective
+# Dessert Map
+
 Create a web-app that through of a selector can filter the dessert restaurants according to your favorite dessert.
+
+![image](https://user-images.githubusercontent.com/32289930/37800360-89b728f2-2df0-11e8-80d4-c85af3f30fac.png)
 
 ## Tools
 * HTML
