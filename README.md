@@ -1,4 +1,4 @@
-# web-app-foodmap
+# Dessert Map
 
 Dessert Map is a web-app that through of a selector can filter the dessert restaurants according to your favorite dessert.
 
