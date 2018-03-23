@@ -1,13 +1,12 @@
-# Insta Collage
+# Dessert Map
 
-The present work consists of the user makes a collage with the photos that he or she wants. The platform is suitable for mobile and computer desk.
+Dessert Map is a web-app that through of a selector can filter the dessert restaurants according to your favorite dessert.
 
+![dessert](https://user-images.githubusercontent.com/32289930/37803233-ae18aa1c-2dfb-11e8-835d-197938357b02.png)
 
-![collage](https://user-images.githubusercontent.com/32289930/37805636-774041f4-2e09-11e8-8034-138248c2bfc2.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
-
 ## Tools
 * HTML
 * CSS
