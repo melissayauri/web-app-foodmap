@@ -1,6 +1,6 @@
 # Dessert Map
 
-Dessert Map is a web-app that through of a selector can filter the dessert restaurants according to your favorite dessert.
+Dessert Map is a web application that shows places that offer desserts and you can select them according to the dessert you want. The platform provides the address and website of the place
 
 ![dessert](https://user-images.githubusercontent.com/32289930/37803233-ae18aa1c-2dfb-11e8-835d-197938357b02.png)
 
