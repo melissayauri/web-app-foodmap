@@ -5,7 +5,7 @@ Dessert Map is a web application that shows places that offer desserts and you c
 ![dessert](https://user-images.githubusercontent.com/32289930/37803233-ae18aa1c-2dfb-11e8-835d-197938357b02.png)
 
 
-## Desarrollado para 
+## Developed for
 [Laboratoria](http://laboratoria.la)
 ## Tools
 * HTML
